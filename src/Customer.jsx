@@ -6,7 +6,7 @@ import Tick from './assets/tick.svg'
 const Customer = () => {
     return (
         <div className='mt-10 flex flex-col gap-5'>
-            <div className='flex justify-between mx-20 items-center'>
+            <div className='mx-4 items-end flex justify-between items-center md:mx-20'>
                 <p className='font-bold text-5xl'>OUR HAPPY CUSTOMERS</p>
                 <div className='flex gap-1'>
                     <img className='w-6 h-6' src={Left} alt="" />
